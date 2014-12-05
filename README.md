@@ -1,10 +1,10 @@
 Image Poller
 =================
-A poller for Openshift v3 images.
+A image poller for Openshift v3 containers.
 
+Usage
+---------------
 
+    $ poller -registry=name -container=containerID
 
-Lists all used images for given Pod.
-
-Checks agains desired Docker Registry if image has changed and if so, ...
-
+Checks agains desired Docker Registry if container is running with uptodate image.
